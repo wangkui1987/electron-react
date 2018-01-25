@@ -4,8 +4,8 @@ create electron-react app
 ## Usage
 
 ``` bash
-$ npm install -g vue-cli
-$ vue init webpack my-project
+$ npm install -g electron-react
+$ vue init my-project
 $ cd my-project
 $ npm install
-$ npm run d
+$ npm run electron
