@@ -25,7 +25,7 @@ function createWindow() {
 
     // and load the index.html of the app.
     if (require('./package.json').dev) {
-        mainWindow.loadURL('http://localhost:3000/');
+        mainWindow.loadURL(`http://localhost:${require('./package.json').post}/`);
     } else {
         mainWindow.loadURL(url.format({
             pathname: path.join(__dirname, 'index.html'),
