@@ -1,6 +1,7 @@
 {
     "main": "main.js",
     "dev": true,
+    "post": 8340,
     "name": "electron-react",
     "version": "0.0.1"
 }
